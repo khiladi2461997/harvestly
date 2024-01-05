@@ -3,9 +3,9 @@ import mongoose from 'mongoose';
 import 'dotenv/config';
 import cors from 'cors';
 
-import dbConnect from './config/dbConnect.js';
-import home from "./routes/home.js";
-import api from "./routes/api.js";
+import dbConnect from './dbConnect.js';
+import home from "./home.js";
+import api from "./api.js";
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 //import vegetableRoutes from './routes/products.js';
